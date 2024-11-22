@@ -102,7 +102,7 @@ if submit_button:
     st.dataframe(comp_df,width=1000,height=300, hide_index=True)
     
     # Fetching previous chat messages data
-    chat_messages_data = pd.read_csv("/Users/alihamzeh/Documents/StreamLit/.files/Messages.csv")
+    # chat_messages_data = pd.read_csv("/Users/alihamzeh/Documents/StreamLit/.files/Messages.csv")
     chat_messages_gsheet = fetch_data(worksheet="messages_db", num_col=11, ttl=0)
 
     # Creating a new chat group for each competition
@@ -144,7 +144,7 @@ if submit_button:
     
     # Save updated chat messages to Google Sheets.
     update_data(worksheet="messages_db", data=chat_messages_gsheet)
-    chat_messages_data.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/Messages.csv", index=False)
+    # chat_messages_data.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/Messages.csv", index=False)
 
     st.success("The competition has finished successfully.")
 
@@ -217,6 +217,6 @@ st.warning("By clicking on :blue[Save changes], the database will be changed.", 
 if st.button("Save changes"):
     update_data(worksheet="competition_db", data=new_comp_setting)
     mainpage_content = new_comp_setting.loc[:, ['competition_name','competition_description']]
-    mainpage_content.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/mainpage.csv", index=False)
+    # mainpage_content.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/mainpage.csv", index=False)
     del st.session_state.comp_setting
     st.rerun()
