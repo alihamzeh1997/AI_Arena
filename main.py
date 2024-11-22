@@ -29,7 +29,7 @@ In following, you can find the details of each competition.
 """)
 with st.expander("Car Negotiation Game: A Prisoner's Dilemma Challenge", icon='🚗'):
     with st.container(height=650):
-        st.image('//workspaces/AI_Arena/Car Negotiation.webp')
+        st.image('/workspaces/AI_Arena/Car Negotiation.webp')
         st.markdown("""
 This is a negotiating game based on the Prisoner’s Dilemma Challenge. In this game, there are 2 roles:
 1. Car Seller
