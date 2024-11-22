@@ -46,6 +46,7 @@ You have to come up with *2 different AI agents* to participate in this game. Th
 
 This game will be played **pairwise**, and your agents will play all other groups. In the end, the groups with higher points will win the competition.
 
+![Jimmy and Dwight.](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZyMGsweHk2dmx0N2J2dm9jcnAwdnM5OXJydWZmaTFsOWsyNnJtMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/79msfurZnTrTxzwOlL/giphy.webp 'Negotiation')
 
 **Rules**:
                     
