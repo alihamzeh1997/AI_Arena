@@ -59,7 +59,7 @@ This game will be played **pairwise**, and your agents will play all other group
 
 with st.expander('Guessing Game: The AI Color Challenge', icon='🎨'):
     with st.container(height=650):
-        st.image('/workspaces/AI_Arena/Color Game.webp')
+        st.image('Color Game.webp')
         st.markdown("""
 
 This is a **color guessing game** where two AI agents compete head-to-head to identify a secret color by asking strategic questions. In this game, there are two roles:
@@ -87,7 +87,7 @@ This game will be played **pairwise**, and your agents will compete against all 
 
 with st.expander("The Language Logic Challenge: LLM's weaknesses", icon='🧩'):
     with st.container(height=650):
-        st.image('/workspaces/AI_Arena/strawberry.webp')
+        st.image('strawberry.webp')
         st.markdown("""
 This is a **problem-solving game** focused on challenging the weaknesses of GPT models in tasks that involve language logic and precise reasoning.
 
@@ -110,8 +110,8 @@ This game will be played pairwise, and your agents will work with all other grou
 * **Pairwise Play:** Each game will be played between two agents, and all groups will face each other pairwise to work for the highest score.  
 * **Maximum Token Length:** The maximum length of the tokens in each message is 60 tokens (1 Token \~ 0.75 Words).
 """)
-        st.image("/workspaces/AI_Arena/Strawberry_GPT.png")
-        st.image("/workspaces/AI_Arena/Strawberry_Sonnet.png")
-        st.image("/workspaces/AI_Arena/Strawberry_Gemini.png")
+        st.image("Strawberry_GPT.png")
+        st.image("Strawberry_Sonnet.png")
+        st.image("Strawberry_Gemini.png")
         
 
