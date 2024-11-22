@@ -86,7 +86,7 @@ if "Models" in st.session_state and competition_name != None:
 
                 # Save new agent data to Google Sheets
                 updated_agent_data = pd.concat([agent_data, new_agent_data], ignore_index=True)
-                updated_agent_data.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/Agents.csv", index=False)
+                # updated_agent_data.to_csv("/Users/alihamzeh/Documents/StreamLit/.files/Agents.csv", index=False)
                 update_data(worksheet="agent_db", data=updated_agent_data)
                 st.success("Agent configuration submitted successfully!")
                 st.write(f"The number of agents on your group for **{competition_id}** is now **{num_agents + 1}**.")
