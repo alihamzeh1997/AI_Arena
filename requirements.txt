@@ -1,1 +1,3 @@
-pyautogen,streamlit,st-gsheets-connection
+pyautogen
+streamlit
+st-gsheets-connection
