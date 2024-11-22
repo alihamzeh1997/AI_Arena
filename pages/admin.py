@@ -130,7 +130,7 @@ if submit_button:
                 }
             ]
         )
-        chat_messages_data = pd.concat([chat_messages_data, new_message_list], ignore_index=True)
+        # chat_messages_data = pd.concat([chat_messages_data, new_message_list], ignore_index=True)
         chat_messages_gsheet = pd.concat([chat_messages_gsheet, new_message_list], ignore_index=True)
         
 
