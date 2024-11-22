@@ -29,7 +29,7 @@ In following, you can find the details of each competition.
 """)
 with st.expander("Car Negotiation Game: A Prisoner's Dilemma Challenge", icon='🚗'):
     with st.container(height=650):
-        st.image('/Users/alihamzeh/Documents/StreamLit/Car Negotiation.webp')
+        st.image('//workspaces/AI_Arena/Car Negotiation.webp')
         st.markdown("""
 This is a negotiating game based on the Prisoner’s Dilemma Challenge. In this game, there are 2 roles:
 1. Car Seller
@@ -59,7 +59,7 @@ This game will be played **pairwise**, and your agents will play all other group
 
 with st.expander('Guessing Game: The AI Color Challenge', icon='🎨'):
     with st.container(height=650):
-        st.image('/Users/alihamzeh/Documents/StreamLit/Color Game.webp')
+        st.image('/workspaces/AI_Arena/Color Game.webp')
         st.markdown("""
 
 This is a **color guessing game** where two AI agents compete head-to-head to identify a secret color by asking strategic questions. In this game, there are two roles:
@@ -87,7 +87,7 @@ This game will be played **pairwise**, and your agents will compete against all 
 
 with st.expander("The Language Logic Challenge: LLM's weaknesses", icon='🧩'):
     with st.container(height=650):
-        st.image('/Users/alihamzeh/Documents/StreamLit/strawberry.webp')
+        st.image('/workspaces/AI_Arena/strawberry.webp')
         st.markdown("""
 This is a **problem-solving game** focused on challenging the weaknesses of GPT models in tasks that involve language logic and precise reasoning.
 
@@ -110,8 +110,8 @@ This game will be played pairwise, and your agents will work with all other grou
 * **Pairwise Play:** Each game will be played between two agents, and all groups will face each other pairwise to work for the highest score.  
 * **Maximum Token Length:** The maximum length of the tokens in each message is 60 tokens (1 Token \~ 0.75 Words).
 """)
-        st.image("/Users/alihamzeh/Documents/StreamLit/Strawberry_GPT.png")
-        st.image("/Users/alihamzeh/Documents/StreamLit/Strawberry_Sonnet.png")
-        st.image("/Users/alihamzeh/Documents/StreamLit/Strawberry_Gemini.png")
+        st.image("/workspaces/AI_Arena/Strawberry_GPT.png")
+        st.image("/workspaces/AI_Arena/Strawberry_Sonnet.png")
+        st.image("/workspaces/AI_Arena/Strawberry_Gemini.png")
         
 
