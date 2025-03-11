@@ -1,3 +1,4 @@
 autogen-agentchat~=0.2
 streamlit
 st-gsheets-connection
+openai
