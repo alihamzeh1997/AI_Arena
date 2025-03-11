@@ -160,7 +160,7 @@ with st.sidebar:
 
 if submit_button_history:
     st.write(f"The results for **{competition_history}** is as follows:")
-    chat_history_data = fetch_data(worksheet="messages_db", num_col=11, ttl=0)
+    chat_history_data = fetch_data(worksheet="messages_db", num_col=12, ttl=0)
     chat_history_data = chat_history_data[chat_history_data.competition_name == competition_history]
     for row in range(len(chat_history_data)):
         expander_name_history = f"Group **{chat_history_data.agent_1_group_id.iloc[row]}** as *{chat_history_data.agent_1_role.iloc[row]}* Vs. Group **{chat_history_data.agent_2_group_id.iloc[row]}** as *{chat_history_data.agent_2_role.iloc[row]}*. Created at *{chat_history_data.created_at.iloc[row]}*"
@@ -175,7 +175,7 @@ st.subheader("💬 Manage Message Database")
 st.write("Please be careful all the changes will be saved to the database. You can just change the agents points below.")
 
 if st.button("Adjust agent's points"):
-    st.session_state.chat_histories = fetch_data(worksheet="messages_db", num_col=11, ttl=0)
+    st.session_state.chat_histories = fetch_data(worksheet="messages_db", num_col=12, ttl=0)
 
 if "chat_histories" in st.session_state:
     column_disabled = [
