@@ -1,6 +1,6 @@
 import streamlit as st
 from functions.gsheet import fetch_data
-import autogen
+import autogen_agentchat as autogen
 from autogen import GroupChatManager, ConversableAgent, GroupChat
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection

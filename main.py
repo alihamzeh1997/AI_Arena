@@ -1,5 +1,5 @@
 import streamlit as st
-import autogen
+import autogen_agentchat as autogen
 from streamlit_gsheets import GSheetsConnection
 import pandas as pd
 import streamlit as st
